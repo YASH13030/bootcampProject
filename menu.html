@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Online Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="menu">
+            <h1>Our Menu</h1>
+            <div class="food-item">
+                <img src="images/food1.jpg" alt="Food 1">
+                <h2>Pizza</h2>
+                <p>Delicious cheese pizza.</p>
+                <button onclick="addToCart('Pizza')">Add to Cart</button>
+            </div>
+            <div class="food-item">
+                <img src="images/food2.jpg" alt="Food 2">
+                <h2>Burger</h2>
+                <p>Juicy burger.</p>
+                <button onclick="addToCart('Burger')">Add to Cart</button>
+            </div>
+            <div class="food-item">
+                <img src="images/food3.jpg" alt="Food 3">
+                <h2>Pasta</h2>
+                <p>Creamy Alfredo pasta.</p>
+                <button onclick="addToCart('Pasta')">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Food Ordering. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
